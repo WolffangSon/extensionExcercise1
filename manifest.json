@@ -1,0 +1,27 @@
+{
+    "manifest_version":3,
+    "name": "FTE Calculator",
+    "version": "1.0.0",
+    "description":"First Project",
+    "author": "Wolffang Son",
+    "host_permissions":["https://*.google.com/*"],
+    "icons":{
+    "16":"icons/shutdown-black-outline-circle-20645 (8).png",
+    "32":"icons/correct-circle-black-outline-20626 (2).png",
+    "48":"icons/correct-circle-black-outline-20626 (2).png",
+    "128":"icons/correct-circle-black-outline-20626 (3).png"
+    },
+    "action":{
+        "default_icon":{
+        "16":"icons/shutdown-black-outline-circle-20645 (3).png"
+        },
+        "default_title":"WFM FTE Calculator"
+    },
+  
+    "background":{
+        "service_worker":"background.js"
+    },
+    "options_page":"options.html"
+ 
+
+}
