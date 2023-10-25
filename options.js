@@ -16,7 +16,7 @@ btnCalculate.addEventListener("click", () => {
    resetValues()
 
   } else {
-   alert("Ingresa valores numéricos válidos")
+   alert("Please insert valid numbers")
   }
 
 });
